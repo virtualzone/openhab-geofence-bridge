@@ -2,7 +2,7 @@
 This is a small HTTP server written in JavaScript/NodeJS which acts as a bridge between Geofence applications (such as Geofency or Geofancy for iOS) and your openHAB installation.
 
 * Trigger a switch item when entering/leaving your geofence area
-* Check the status of your 
+* Check the status of your Basic UI
 
 ## Installation
 Run the following commands:
@@ -29,10 +29,10 @@ Create a file named ```config.json``` like this:
 }
 ```
 
-# URLs
-* /enter = Set ```item``` to ON
-* /exit = Set ```item``` to OFF
-* /status = Check if ```statusCheckString``` is present in Basic UI
+## URLs
+* /enter (POST) = Set ```item``` to ON
+* /exit (POST) = Set ```item``` to OFF
+* /status (GET) = Check if ```statusCheckString``` is present in Basic UI
 
 ## Docker container
 You can use the following command to start up a docker container, mount your config file and expose port 8080:
