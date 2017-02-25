@@ -2,7 +2,7 @@
   "name": "openhab-geofence-bridge",
   "version": "1.0.0",
   "author": "Heiner Peuser <heiner.peuser@weweave.net>",
-  "license": "UNLICENSED",
+  "license": "GPLv3",
   "dependencies": {
     "dateformat": "^2.0.0",
     "express": "^4.14.1",
