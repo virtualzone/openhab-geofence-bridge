@@ -13,7 +13,7 @@ var log = function(s) {
 };
 
 var loadConfig = function() {
-    var path = __dirname + "/config.json";
+    var path = __dirname + "/config/config.json";
     log("Loading config from " + path);
     var s = fs.readFileSync(path);
     config = JSON.parse(s);

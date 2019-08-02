@@ -40,6 +40,6 @@ You can use the following command to start up a docker container, mount your con
 ```
 docker run \
     -p 8080:8080 \
-    -v "$PWD/config.json:/usr/src/app/config.json" \
+    -v "$PWD/config.json:/usr/src/app/config/config.json" \
     virtualzone/openhab-geofence-bridge
 ```

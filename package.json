@@ -1,11 +1,11 @@
 {
   "name": "openhab-geofence-bridge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Heiner Peuser <heiner.peuser@weweave.net>",
   "license": "GPLv3",
   "dependencies": {
     "dateformat": "^3.0.3",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "http": "0.0.0"
   },
   "devDependencies": {}
